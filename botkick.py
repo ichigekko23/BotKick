@@ -152,7 +152,17 @@ def SEND_MESSAGE(op):
                     sendMessage(msg.to, "hehehe")
                     elapsed_time = time.time() - start
                     sendMessage(msg.to, "%sseconds" % (elapsed_time))
-#-------------------------------------------------------------		
+#-------------------------------------------------------------
+                if msg.text == "Spam":
+                    sendMessage(msg.to,"3")
+                    sendMessage(msg.to,"2")
+                    sendMessage(msg.to,"1")
+                    sendMessage(msg.to,"Fuck Off")
+                    sendMessage(msg.to,"")
+                    sendMessage(msg.to,"SPAM IS DONE")
+                    sendMessage(msg.to,"Created By : Farzain - zFz")
+                    sendMessage(msg.to,"Subscribe My Channel : https://www.youtube.com/c/zFz48")
+#-------------------------------------------------------------
         else:
             pass
 
