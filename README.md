@@ -1,4 +1,7 @@
-BOT KICK V1.0
+BOT KICK V2.0
+
+Bot akan langsung kick jika ada :
+- Member Ngusir Member lain atau Calon Member Lain
 
 Fungsinya cuman 4 :
 - Cek Speed Bot
