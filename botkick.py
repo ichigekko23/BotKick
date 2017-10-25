@@ -130,7 +130,7 @@ def SEND_MESSAGE(op):
                     print "ok"
                     _name = msg.text.replace("Mulai","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"Kick By Farzain - zFz\nsaya tidak bertanggung jawab apabila grup anda rata karena bot ini, silahkan kalian tanya sendiri akun ini\nTerimakasih")
+                    sendMessage(msg.to,"ni grup rata jangan salahin gw salahin yg invite gw karena gw cmn bot")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
@@ -219,8 +219,6 @@ def SEND_MESSAGE(op):
                     sendMessage(msg.to,"Ungkapkan perasaanmu")
                     sendMessage(msg.to,"Jujurlah dari sekarang juga..")
                     sendMessage(msg.to,"SPAM IS DONE")
-                    sendMessage(msg.to,"Created By : Farzain - zFz")
-                    sendMessage(msg.to,"Subscribe My Channel : https://www.youtube.com/c/zFz48")
 #-------------------------------------------------------------
                 if msg.text == "Tagall":
 		      group = client.getGroup(msg.to)
